@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>tienda</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<header>
+			<a href="index.html" class="logo">
+				<img src= "National_Football_League_logo.svg.webp" alt="logo de la compañia">
+				<h2 class="nombre-empresa">NFL SHOP</h2>
+			</a>
+			<nav>
+				<a href="index.html" class="nav-link">Inicio</a>
+				<a href="sobre-nosotros.html" class="nav-link">Sobre Nosotros</a>
+				<a href="contacto.html" class="nav-link">Contacto</a>
+			</nav>
+
+			<div class="container-icon">
+				<div class="container-cart-icon">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke-width="1.5"
+						stroke="currentColor"
+						class="icon-cart"
+					>
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+						/>
+					</svg>
+					<div class="count-products">
+						<span id="contador-productos">0</span>
+					</div>
+				</div>
+
+				<div class="container-cart-products hidden-cart">
+					<div class="row-product hidden">
+						<div class="cart-product">
+							<div class="info-cart-product">
+								<span class="cantidad-producto-carrito">1</span>
+								<p class="titulo-producto-carrito">Zapatos Nike</p>
+								<span class="precio-producto-carrito">$80</span>
+							</div>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								fill="none"
+								viewBox="0 0 24 24"
+								stroke-width="1.5"
+								stroke="currentColor"
+								class="icon-close"
+							>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									d="M6 18L18 6M6 6l12 12"
+								/>
+							</svg>
+						</div>
+					</div>
+
+					<div class="cart-total hidden">
+						<h3>Total:</h3>
+						<span class="total-pagar">$200</span>
+					</div>
+					<p class="cart-empty">El carrito está vacío</p>
+				</div>
+			</div>
+		</header>
+		<div class="container-items">
+			<div class="item">
+				<figure>
+					<img
+						src="mens-nike-lamar-jackson-black-baltimore-ravens-legend-jersey_pi3167000_altimages_ff_3167132alt1_full.webp"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Mens Nike Lamar Jackson Black Baltimore Ravens Legend Jersey</h2>
+					<p class="price">$99</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="47ce3e3d-9c38-40ec-b7d5-91f19f890458_1.74fb99be59574324f0b8930e80277906.webp"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Mens Nike Lamar Jackson White Baltimore Ravens Game Player Jersey</h2>
+					<p class="price">$129</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="jack.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Mens Nike Lamar Jackson Purple Baltimore Ravens Game Player Jersey</h2>
+					<p class="price">$129</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="mens-nike-brock-purdy-scarlet-san-francisco-49ers-game-player-jersey_pi5111000_ff_5111108-f01fb8bcf3dda804a613_full.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Mens Nike Brock Purdy Scarlet San Francisco 49ers Game Jersey</h2>
+					<p class="price">$90</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="mens-nike-brock-purdy-white-san-francisco-49ers-game-player-jersey_pi5274000_ff_5274940-ae6a12969288d5e007a4_full.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Mens Nike Brock Purdy White San Francisco 49ers Game Jersey</h2>
+					<p class="price">$129</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="mens-nike-brock-purdy-tundra-white-san-francisco-49ers-fashion-game-jersey_ss5_p-201064582+pv-1+u-orwjluhpffaw23xkdj3r+v-5hsdk2q53dn0hxdo6en2.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Mens Nike Brock Purdy Tundra White San Francisco 49ers Game Jersey</h2>
+					<p class="price">$129</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="mens-nike-aidan-hutchinson-blue-detroit-lions-game-jersey_ss5_p-200422555+u-xmmm7qtnd3tu6dt7t3en+v-dzixzhbvhtra9j6vgkag.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Mens Nike Aidan Hutchinson Blue Detroit Lions Game Player Jersey</h2>
+					<p class="price">$129</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="mens-nike-aidan-hutchinson-white-detroit-lions-game-jersey_ss5_p-200422556+u-o2tg4fcccfbx1lohhypn+v-2q9gspusayrzvohddwge.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Mens Nike Aidan Hutchinson White Detroit Lions Game Player Jersey</h2>
+					<p class="price">$129</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="mens-nike-aidan-hutchinson-black-detroit-lions-2nd-alternate-game-jersey_ss5_p-200422557+pv-2+u-zv61gsx05rnyuquoaiag+v-g0g8s4x3ifld0puniysn.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Mens Nike Aidan Hutchinson Black Detroit Lions Game Player Jersey</h2>
+					<p class="price">$129</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="mens-nike-patrick-mahomes-red-kansas-city-chiefs-game-jersey_pi3892000_ff_3892890-97e8f397481937adf7a4_full.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Mens Nike Patrick Mahomes Red Kansas City Chiefs Game Player Jersey</h2>
+					<p class="price">$129</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="mens-nike-patrick-mahomes-white-kansas-city-chiefs-game-jersey_ss5_p-201238458u-y0ms5e6t1jtdgmrfqs2pv-frxlg24lkgm11nzxt6ki.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Mens Nike Patrick Mahomes White Kansas City Chiefs Game Player Jersey</h2>
+					<p class="price">$129</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="mens-nike-patrick-mahomes-black-kansas-city-chiefs-super-bowl-lviii-carbon-fashion-game-player-jersey_ss5_p-201164181u-1xdmd1wfmynvj2lqjxppv-8u8zxq4ibfvbzbexudzc.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Mens Nike Patrick Mahomes Black Kansas City Chiefs Game Player Jersey</h2>
+					<p class="price">$129</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="mens-nike-jalen-hurts-midnight-green-philadelphia-eagles-team-game-jersey_ss5_p-201398331u-qrzi6364mzm75owix6i9v-wl9yhn46obc4szgsznbo.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Mens Nike Jalen Hurts Midnight Green Philadelphia Eagles Game Player Jersey</h2>
+					<p class="price">$129</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="mens-nike-jalen-hurts-black-philadelphia-eagles-alternate-game-jersey_ss5_p-201398330u-ohrnz6uffmmsm9tokafvv-e5tfw4ukqrakaxf2mufz.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Mens Nike Jalen Hurts Black Philadelphia Eagles Game Player Jersey</h2>
+					<p class="price">$129</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="mens-nike-jalen-hurts-kelly-green-philadelphia-eagles-alternate-game-player-jersey_ss5_p-5257792u-ottsvbbuzcmp2xquw8t7v-tjjiyc3roxmb6bclijqc.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Mens Nike Jalen Hurts Kelly Green Philadelphia Eagles Game Player Jersey</h2>
+					<p class="price">$129</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="mens-nike-cj-stroud-navy-houston-texans-game-jersey_ss5_p-200422959+u-a0qbvjz7evmbpproigde+v-8tsc0d3tiian5bo2gc6q.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Mens Nike Cj Stroud Navy Houston Texans Game Player Jersey</h2>
+					<p class="price">$129</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="mens-nike-cj-stroud-navy-houston-texans-2nd-alternate-game-jersey_ss5_p-200430447+u-dcklz45jqf9ayrdvl7dx+v-uw4izr75susimg9kjehd.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Mens Nike Cj Stroud Navy Houston Texans 2nd Game Player Jersey</h2>
+					<p class="price">$129</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="mens-nike-cj-stroud-red-houston-texans-alternate-game-jersey_ss5_p-200422470+u-2xx7qsr428ietl2xg80q+v-e4yswk6xl2sthbqx2p1z.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Mens Nike Cj Stroud Red Houston Texans Game Player Jersey</h2>
+					<p class="price">$129</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="mens-nike-caleb-williams-navy-chicago-bears-2024-nfl-draft-first-round-pick-player-game-jersey_ss5_p-201359620u-bf1et0bgoqad1rmfxjipv-mvlntf1hvv5chm00y8gt.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Mens Nike Caleb Williams Navy Chicago Bears Game Player Jersey</h2>
+					<p class="price">$129</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="mens-nike-caleb-williams-orange-chicago-bears-alternate-2024-nfl-draft-first-round-pick-player-game-jersey_ss5_p-201359911u-szpx0zzuxvmnzdutfufrv-vrpdhsp3yi0t8sm2pbpt.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Mens Nike Caleb Williams Orange Chicago Bears Game Player Jersey</h2>
+					<p class="price">$129</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="mens-nike-caleb-williams-white-chicago-bears-2024-nfl-draft-2nd-alternate-game-player-jersey_ss5_p-201628386u-y54187ajhsdsqatxaknrv-qm4fzv86f5rj7yjzemnc.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Mens Nike Caleb Williams White Chicago Bears Game Player Jersey</h2>
+					<p class="price">$129</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+
+
+		<script src="index.js"></script>
+	</body>
+</html>
